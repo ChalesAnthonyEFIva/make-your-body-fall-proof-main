@@ -5,19 +5,8 @@
 
 /*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
 
-@media (max-width: 1500px) {
-    .res-full-w{
-        width: 100% !important;
-    }
-}
+@media (min-width: 1200px) and (max-width: 1500px) {
 
-@media (max-width: 1199px) {
-    .res-column-xlg{
-        flex-direction: column;
-    }
-    .res-full-w-1199{
-        width: 100% !important;
-    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -25,92 +14,40 @@
         font-size: 42px;
     }
     .text-bg h1 {
-        font-size: 30px;
+        font-size: 42px;
+        padding-top: 63px;
+        line-height: 55px;
     }
     .text-bg span {
-        font-size: 18px;
+        font-size: 45px;
+        line-height: 62px;
     }
     
     .cont h3 {
         font-size: 40px;
     }
-
-}
-
-@media (max-width: 991px) {
-    .body-mess{
-        flex-direction: column-reverse;
-    }
-
-    .body-mess-text, .res-full-w-991{
-        width: 100% !important;
-    }
-    .body-mess-image{
-        width: 100% !important;
-        padding: 10px 20px;
-    }
-    .lg-mg-w-text-text{
-        width: 100%;
-        height: 100%;
-        padding: 20px;
-        background:none;
-   }
-   .res-flex-column-991{
-    flex-direction: column;
-   }
-   .body-mess-text-content , .p-mess, .list-container-main-text-sub{
-        padding: 10px 0;
-    }
-
-   
-
-}
-@media (max-width: 800px) {
-    .lg-overaly .lg-img-overaly-text.center{
-        top: 0;
-        bottom: 0;
-    }
-
-    .res-font-md-800{
-        font-size: 30px !important;
-        line-height: 40px !important;
-    }
-
-    .res-column-800{
-        flex-direction: column;
-    }
-    .res-full-w-800{
-        width: 100% !important;
-    }
-    .res-h-auto-800{
-        height: auto !important;
-    }
-
-  
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    
-    .res-px-20-991-768{
-        padding-left: 20px !important;
-        padding-right: 20px !important;
-    }
-
     .navigation.navbar-dark .navbar-nav .nav-link {
         padding: 19px 10px;
     }
     .text-bg h1 {
-        font-size: 30px;
+font-size: 43px;
+line-height: 39px;
+padding-bottom: 18px;
     }
     .text-bg strong {
-        font-size: 17px;
+        font-size: 50px;
+        line-height: 59px;
     }
     .padding_lert2 {
         padding-right: 0;
     }
    
     .text-bg span {
-        font-size: 18px;
+        font-size: 33px;
+        line-height: 45px;
     }
     .margin_bott {
         margin-bottom: 30px;
@@ -134,32 +71,6 @@
     .footer {padding-top: 0;}
 }
 
-@media (max-width: 767px) {
-    .res-column-570{
-        flex-direction: column;
-    }
-    .res-justify-center-570{
-        justify-content: center;
-    }
-    .res-full-w-570{
-        width: 100% !important;
-    }
-    .res-font-smaller-767{
-        font-size: 20px !important;
-        line-height: 25px !important;
-    }
-
-    .res-px-15-767{
-        padding-left: 15px !important;
-        padding-right: 15px !important;
-    }
-
-    .horizontal-line-primary{
-        width: 80%;
-        height: 3px;
-    }
-}
-
 @media (min-width: 576px) and (max-width: 767px) {
     .header {
         padding: 15px 30px 10px 30px;
@@ -168,11 +79,14 @@
         margin-top: 0px;
     }
     .text-bg h1 {
-        font-size: 30px;
+        font-size: 45px;
+        line-height: 63px;
+        padding-bottom: 25px;
     }
    
     .text-bg span {
-        font-size: 18px;
+        font-size: 40px;
+        line-height: 54px;
     }
     .titlepage h2 {
         font-size: 34px;
@@ -188,7 +102,7 @@
     .text-img {
     padding-top: 30px;
 }
-    .classified_box {margin-bottom: 30px;}
+.classified_box {margin-bottom: 30px;}
     .navigation.navbar {
         float: right;
         display: inherit !important;
@@ -225,28 +139,6 @@
 }
 
 @media (max-width: 575px) {
-    .content{
-        padding: 20px;
-    }
-    .res-center-text-sm{
-        text-align: center !important;
-    }
-    .res-full-w-575{
-        width: 100% !important;
-   }
-    .res-pd-0{
-        padding: 0 !important;
-    }
-    .res-font-sm-575{
-        font-size: 18px !important;
-        line-height: 25px !important;
-    }
-
-    .res-font-md-575{
-        font-size: 20px !important;
-        line-height: 25px !important;
-    }
-
     .header {
         padding: 30px 0px 15px 0px;
     }
@@ -262,7 +154,8 @@
         padding-bottom: 20px;
     }
     .text-bg span {
-        font-size: 18px;
+        font-size: 26px;
+        line-height: 36px;
     }
     .titlepage h2 {
         font-size: 29px;
@@ -329,9 +222,3 @@
     }
 }
 
-@media (max-width: 500px) {
-    .res-px-15-500{
-        padding-left: 15px !important;
-        padding-right: 15px !important;
-    }
-}
